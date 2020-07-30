@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.16)
+project(SameGame)
+
+set(CMAKE_CXX_STANDARD 14)
+
+set(SAMEGAME_INSTALL_BIN_DIR ${PROJECT_SOURCE_DIR}/bin)
+set(SAMEGAME_INSTALL_LIB_DIR ${PROJECT_SOURCE_DIR}/lib)
+set(SAMEGAME_INSTALL_INCLUDE_DIR ${PROJECT_SOURCE_DIR}/include)
+
+add_subdirectory(src)
