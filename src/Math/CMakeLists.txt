@@ -7,7 +7,6 @@ add_library(
         STATIC
         Vector2.cc
         ${SAMEGAME_INSTALL_INCLUDE_DIR}/Math/MathUtil.h
-        ${SAMEGAME_INSTALL_INCLUDE_DIR}/Math/Graph.h
         Random.cc
 )
 
